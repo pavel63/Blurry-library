@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         iv=(ImageView)findViewById(R.id.iv);
 
         bitmap=BitmapFactory.decodeResource(getResources(),R.drawable.mfd);
-        
+
         iv.post(new Runnable() {
             //@override
             public void run() {
